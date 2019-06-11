@@ -12,7 +12,7 @@ int main() {
 
     int h, m;
     cin >> h >> m;
-    
+
     switch (m) {
         case 0:
             printf("%s o' clock\n", numbers[h]);
@@ -35,6 +35,6 @@ int main() {
         default:
             (m < 30) ? printf("%s minutes past %s\n", numbers[m], numbers[h]) : printf("%s minutes to %s\n", numbers[60 - m], numbers[h % 12 + 1]);
     }
-    
+
     return 0;
 }

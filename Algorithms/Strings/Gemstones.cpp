@@ -12,7 +12,7 @@ int main() {
 
     string line;
     getline(cin, line);
-	
+
     int gems[26] = {0};
     for (int n = 0; n < N; n++) {
         getline(cin, line);

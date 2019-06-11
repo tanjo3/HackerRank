@@ -12,4 +12,3 @@ public class Solution {
         System.out.format("%064x", new BigInteger(1, hash));
     }
 }
-

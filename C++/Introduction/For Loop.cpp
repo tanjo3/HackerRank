@@ -7,7 +7,7 @@ int main() {
     int a, b;
     cin >> a;
     cin >> b;
-    
+
     for (int x = a; x <= b; x++) {
         if (x > 9) {
             if (x % 2 == 0) {

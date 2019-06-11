@@ -18,7 +18,7 @@ vector<int> parseInts(string str) {
             ss >> comma;
         }
     }
-    
+
     return ints;
 }
 

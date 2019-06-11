@@ -32,6 +32,6 @@ int main() {
     eqr.equilateral();
     eqr.isosceles();
     eqr.triangle();
-    
+
     return 0;
 }
